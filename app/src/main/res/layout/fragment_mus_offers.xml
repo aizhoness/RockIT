@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MusOffersFragment"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/inbox_btn"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:text="Inbox"
+            android:textStyle="normal"
+            android:textSize="18sp"
+            android:background="@drawable/box_frame_bold"
+            android:textAllCaps="false"
+            />
+        <Button
+            android:id="@+id/outbox_btn"
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:text="Outbox"
+            android:textStyle="normal"
+            android:textSize="18sp"
+            android:background="@drawable/box_frame"
+            android:textAllCaps="false"
+            />
+
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/myoffersrv"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+</LinearLayout>

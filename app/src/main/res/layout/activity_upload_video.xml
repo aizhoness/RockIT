@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UploadVideoActivity">
+    <VideoView
+        android:id="@+id/uploaded_video"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"/>
+    <EditText
+        android:id="@+id/video_name"
+        android:layout_width="250dp"
+        android:minHeight="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:hint="Video description"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/colorOfDarkBlue"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="15dp"
+        android:background="@drawable/name_edit_frame"/>
+    <Button
+        android:id="@+id/choose_video"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/next_btn"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="CHOOSE"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif"/>
+    <Button
+        android:id="@+id/upload_video"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/signin_btn"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="UPLOAD"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif"/>
+
+</LinearLayout>

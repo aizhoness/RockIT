@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal">
+
+    <Spinner
+        android:id="@+id/offerSpinner"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/colorOfDarkBlue"
+        android:hint="Select the offer"
+        android:paddingLeft="10dp"
+        android:background="@drawable/spinner_background"
+        android:layout_centerHorizontal="true"
+        >
+    </Spinner>
+
+    <Button
+        android:id="@+id/hire_Btn"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/offerSpinner"
+        android:background="@drawable/action_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="HIRE!"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif"/>
+
+</RelativeLayout>

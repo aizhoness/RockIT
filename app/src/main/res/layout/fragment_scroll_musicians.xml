@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <SearchView
+        android:id="@+id/mussearch"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:searchHintIcon="@drawable/ic_video"
+        android:background="@drawable/search_frame">
+
+    </SearchView>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/musiciansrv"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/mussearch"
+        android:layout_gravity="center_horizontal">
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+</RelativeLayout>

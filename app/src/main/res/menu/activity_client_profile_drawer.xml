@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/profilemenu"
+            android:title="My profile"
+            android:icon="@drawable/ic_darkkoala"/>
+        <item android:id="@+id/musiciansmenu"
+            android:title="Musicians"
+            android:icon="@drawable/ic_darkmusician"/>
+        <item android:id="@+id/offersmenu"
+            android:title="My offers"
+            android:icon="@drawable/ic_darkoffer"/>
+        <item android:id="@+id/signoutmenu"
+            android:title="Sign out"
+            android:icon="@drawable/ic_darksignout"/>
+    </group>
+
+</menu>

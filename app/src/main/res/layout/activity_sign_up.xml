@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".SignUpActivity">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:background="@color/colorOfRed"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/who_is"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/who_is_str"
+            android:textColor="#FFF"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif"/>
+        <RadioGroup
+            android:id="@+id/UserType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/radio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:checked="false"
+                android:text="@string/musician"
+                android:paddingLeft="10dp"
+                android:textColor="#FFF"
+                android:buttonTint="#FFF"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif"/>
+            <RadioButton
+                android:id="@+id/radio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:checked="false"
+                android:text="@string/employee"
+                android:paddingLeft="10dp"
+                android:textColor="#FFF"
+                android:buttonTint="#FFF"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif"/>
+            <RadioButton
+                android:id="@+id/radio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:checked="false"
+                android:text="@string/fan"
+                android:paddingLeft="10dp"
+                android:textColor="#FFF"
+                android:buttonTint="#FFF"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif"/>
+
+        </RadioGroup>
+    </LinearLayout>
+    <FrameLayout
+        android:id="@+id/sign_up_part"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="200dp">
+    </FrameLayout>
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1070468079387",
+    "firebase_url": "https://rockit-69809.firebaseio.com",
+    "project_id": "rockit-69809",
+    "storage_bucket": "rockit-69809.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1070468079387:android:82cb4e2ff814aa66",
+        "android_client_info": {
+          "package_name": "com.aizhan.rockitapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1070468079387-t8jdf0cb85587kcn7757d049mq504ei1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aizhan.rockitapp",
+            "certificate_hash": "7197c412459d48d30b9b38f0b628a6833ac3e95b"
+          }
+        },
+        {
+          "client_id": "1070468079387-3e7ba1s9s02nghde5ab57mch6dkkkthl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVhtfALkv5lev0mcxjSZGZsjORDaW2MTU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1070468079387-3e7ba1s9s02nghde5ab57mch6dkkkthl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

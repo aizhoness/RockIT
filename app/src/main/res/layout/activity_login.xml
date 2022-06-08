@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/colorofKoala"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <lal.adhish.gifprogressbar.GifView
+            android:id="@+id/progressBar"
+            android:layout_width="50dp"
+            android:layout_centerInParent="true"
+            android:layout_margin="5dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center" />
+
+        <ImageView
+            android:id="@+id/imageLogo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/logo50" />
+
+        <EditText
+            android:id="@+id/loginEdit"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/login_edit_text"
+            android:drawableLeft="@drawable/ic_username"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif"
+            android:drawablePadding="10dp"/>
+        <EditText
+            android:id="@+id/passwordEdit"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:inputType="textPassword"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/login_edit_text"
+            android:drawableLeft="@drawable/ic_password"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif"
+            android:drawablePadding="10dp"/>
+
+        <Button
+            android:id="@+id/signinBtn"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:background="@drawable/signin_btn"
+            android:layout_marginBottom="20dp"
+            android:text="SIGN IN"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif"/>
+        <Button
+            android:id="@+id/signupBtn"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:background="@drawable/login_edit_text"
+            android:text="SIGN UP"
+            android:layout_marginBottom="20dp"
+            android:textColor="#F55449"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

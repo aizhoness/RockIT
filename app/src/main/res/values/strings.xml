@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">RockitApp</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="who_is_str">Who are you?</string>
+    <string name="musician">Musician</string>
+    <string name="employee">Employee</string>
+    <string name="fan">Fan</string>
+    <string name="aboutme">Describe yourself shortly</string>
+    <string name="aboutmeres">I love  music. And now I am  searching for singer for my musical group.</string>
+    <string-array name="country_arrays">
+        <item>Malaysia</item>
+        <item>United States</item>
+        <item>Indonesia</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Singapore</item>
+        <item>New Zealand</item>
+        <item>India</item>
+    </string-array>
+    <string-array name="city_arrays">
+        <item>New York</item>
+        <item>Rome</item>
+        <item>Paris</item>
+        <item>Amsterdam</item>
+        <item>Prague</item>
+        <item>Lodz</item>
+        <item>Astana</item>
+        <item>Mumbay</item>
+    </string-array>
+    <string-array name="clienttype_arrays">
+        <item>Personal client</item>
+        <item>Organization</item>
+    </string-array>
+    <string name="title_activity_musician_profile">MusicianProfileActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_client_profile">ClientProfileActivity</string>
+    <string name="title_activity_fan_profile">FanProfileActivity</string>
+    <string name="what_type_str">What type is offer?</string>
+    <string name="team">Team member</string>
+    <string name="event">Order to event</string>
+</resources>

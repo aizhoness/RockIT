@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/profilemenu"
+            android:title="My profile"
+            android:icon="@drawable/ic_darkkoala"/>
+        <item android:id="@+id/musiciansmenu"
+            android:title="Musicians"
+            android:icon="@drawable/ic_darkmusician"/>
+        <item android:id="@+id/searchoffers"
+            android:title="Search offers"
+            android:icon="@drawable/ic_job_search"/>
+        <item android:id="@+id/offersmenu"
+            android:title="My offers"
+            android:icon="@drawable/ic_darkoffer"/>
+        <item android:id="@+id/myphotos"
+            android:title="My photos"
+            android:icon="@drawable/ic_my_photos"/>
+        <item android:id="@+id/myaudios"
+            android:title="My audios"
+            android:icon="@drawable/ic_my_audios"/>
+        <item android:id="@+id/myvideos"
+            android:title="My videos"
+            android:icon="@drawable/ic_my_videos"/>
+        <item android:id="@+id/signoutmenu"
+            android:title="Sign out"
+            android:icon="@drawable/ic_darksignout"/>
+    </group>
+
+</menu>

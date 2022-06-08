@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:orientation="vertical"
+    android:id="@+id/headerLayout"
+    android:background="@color/colorOfRed"
+    android:padding="25dp">
+    <ImageView
+        android:src="@drawable/musician1"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:background="@drawable/login_edit_text"/>
+    <TextView
+        android:id="@+id/name_surname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sara Adams"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>

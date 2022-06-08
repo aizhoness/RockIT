@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <EditText
+                android:id="@+id/whoEdit"
+                android:layout_width="280dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/colorOfDarkBlue"
+                android:hint="Who?"
+                android:paddingLeft="10dp"
+                android:background="@drawable/name_edit_frame" />
+            <EditText
+                android:id="@+id/whenEdit"
+                android:layout_below="@+id/whoEdit"
+                android:layout_width="280dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:hint="When?"
+                android:background="@drawable/name_edit_frame"
+                android:drawableRight="@drawable/where_right"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif"
+                android:drawablePadding="10dp"/>
+            <EditText
+                android:id="@+id/whereEdit"
+                android:layout_below="@+id/whenEdit"
+                android:layout_width="280dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/colorOfDarkBlue"
+                android:hint="Where?"
+                android:paddingLeft="10dp"
+                android:background="@drawable/name_edit_frame" />
+            <LinearLayout
+                android:id="@+id/salaryLayout"
+                android:layout_below="@+id/whereEdit"
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+                <EditText
+                    android:id="@+id/fromEdit"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:textSize="18sp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="@color/colorOfDarkBlue"
+                    android:hint="From"
+                    android:paddingLeft="10dp"
+                    android:background="@drawable/name_edit_frame" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorOfDarkBlue"
+                    android:textSize="20sp"
+                    android:fontFamily="sans-serif"
+                    android:text="KZT"
+                    android:layout_marginLeft="2dp"/>
+                <EditText
+                    android:id="@+id/toEdit"
+                    android:layout_width="120dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="2dp"
+                    android:textSize="18sp"
+                    android:fontFamily="sans-serif"
+                    android:textColor="@color/colorOfDarkBlue"
+                    android:hint="To"
+                    android:paddingLeft="10dp"
+                    android:background="@drawable/name_edit_frame" />
+
+            </LinearLayout>
+            <EditText
+                android:id="@+id/aboutEdit"
+                android:layout_width="280dp"
+                android:minHeight="70dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/salaryLayout"
+                android:layout_marginTop="20dp"
+                android:textSize="18sp"
+                android:hint="Describe your offer"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/colorOfDarkBlue"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="15dp"
+                android:background="@drawable/name_edit_frame"/>
+            <Button
+                android:id="@+id/saveBtn"
+                android:layout_width="280dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/aboutEdit"
+                android:background="@drawable/next_btn"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:text="SAVE"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:fontFamily="sans-serif"/>
+
+        </RelativeLayout>
+    </ScrollView>
+</FrameLayout>
+
+
